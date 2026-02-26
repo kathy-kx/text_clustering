@@ -1,6 +1,6 @@
 # Assignment 2 – Text Clustering
 
-Unsupervised clustering of research paper abstracts across five semantically similar cancer categories, comparing BOW, TF-IDF, LDA, and Word2Vec feature representations with K-Means, EM (Gaussian Mixture), and Hierarchical clustering algorithms.
+Unsupervised clustering of research paper abstracts across five semantically similar cancer categories, comparing BOW, TF-IDF, LDA, Word2Vec, and Sentence-BERT feature representations with K-Means, EM (Gaussian Mixture), and Hierarchical clustering algorithms.
 
 ---
 
@@ -103,7 +103,7 @@ To ensure reproducible results, pin the following package versions at the top of
     --extra-index-url https://download.pytorch.org/whl/cpu
 ```
 
-> Clustering results (especially K-Means) are sensitive to library versions due to differences in random state handling and numerical precision. Using the same versions across the team ensures the "champion model" stays consistent.
+> Due to random initialization and numerical precision differences, clustering results may vary slightly across library versions. Using the same versions across the team ensures the "champion model" stays consistent.
 
 ---
 
