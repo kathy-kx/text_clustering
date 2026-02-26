@@ -1,0 +1,5 @@
+.DS_Store
+assignment_requirement.md
+.venv/
+plan.md
+__pycache__/
